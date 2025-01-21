@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        platform: [ macos-14-xlarge ]
+        platform: [ macos-14-xlarge, macos-latest-xlarge ]
 
     runs-on: ${{ matrix.platform }}
 
